@@ -1,0 +1,348 @@
+body {
+    margin: 0px;
+    background-color: #ebeeed;
+    font-family: Montserrat;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /*to remove the vertical scrollbar*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    color: #051320;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: left;
+    gap: 30px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.righth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 260px;
+    animation: aone ease-out 5s;
+    position: relative;
+}
+
+@keyframes aone {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+.crazy {
+    /* padding: 35px; */
+    margin-left: 150px;
+    margin-right: 150px;
+    animation: atwo linear both;
+    animation-timeline: view(block);
+    animation-range: cover 50% cover 85%;
+}
+
+.ArnoldText {
+    display: flex;
+    justify-content: center;
+    font-family: Korbin W01 Bold;
+    font-size: 90px;
+    text-align: center;
+    /*border: 5px solid;
+    border-color: #051320;
+    border-radius: 15px;*/
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+.buttonm {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 80px;
+}
+
+.buttonmore {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 15px 28px;
+    margin: 0px;
+    border: none;
+    background-color: #051320;
+    color: #ebeeed;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border: 2px solid #051320;
+    border-radius: 50px;
+}
+
+.buttonmore:hover {
+    background-color: #ebeeed;
+    color: #051320;
+    border: 2px solid #051320;
+}
+
+@keyframes atwo {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.logo {
+    height: 25px;
+}
+
+/* .bone {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+
+
+.img2 {
+    width: 1000px;
+    border-radius: 17px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.buttontop {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 15px 28px;
+    margin: 0px;
+    background-color: #ebeeed;
+    color: #051320;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border: 2px solid #ebeeed;
+    border-radius: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center */
+}
+
+.buttontop:hover {
+    background-color: #051320;
+    color: #ebeeed;
+    border: 2px solid #ebeeed;
+}
+
+.bmain {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 15px 32px;
+    border: none;
+    background-color: #ebeeed;
+    color: #051320;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border: 2px solid #ebeeed;
+    /*border-radius: 50px;*/
+}
+
+.bmain:hover {
+    background-color: #051320;
+    color: #ebeeed;
+    border: 2px solid #ebeeed;
+}
+
+.btwo {
+    padding: 100px;
+    background-color: #051320;
+    color: #ebeeed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btwoaa {
+    padding-top: 0px;
+    font-size: 75px;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+    font-family: bebas neue, NewYork;
+}
+
+.btwoab {
+    font-size: 17px;
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img3 {
+    height: 350px;
+}
+
+.btwoa {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*.logotext {
+    font-family: NewYork;
+}*/
+
+.more {}
+
+.bthree {
+    padding: 40px;
+}
+
+.meet {
+    font-size: 35px;
+    font-weight: 700;
+    color: #051320;
+    display: flex;
+    justify-content: center;
+}
+
+.allimga {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#allimg {
+    height: 100px;
+}
+
+.dadpic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+}
+
+.dadpicleft {
+    font-size: 60px;
+    font-weight: 600;
+    animation: athree ease-out 5s;
+    position: relative;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes athree {
+    0% {
+        left: -100px;
+        opacity: 0;
+    }
+
+    50% {
+        left: -100px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.dadapicr {
+    height: 400px;
+    border-bottom-right-radius: 15px;
+    animation: afour ease-out 5s;
+    position: relative;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes afour {
+    0% {
+        right: -100px;
+        opacity: 0;
+    }
+
+    50% {
+        right: -100px;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.yt {
+    background-color: #051320;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.delete {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 6px 8px;
+    margin: 0px;
+    background-color: #ebeeed;
+    color: #051320;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border: 2px solid #ebeeed;
+    /* border-radius: 50px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center */
+}
+
+.delete:hover {
+    background-color: #ebeeed;
+    color: #051320;
+    border-bottom: 2px solid #051320;
+}
