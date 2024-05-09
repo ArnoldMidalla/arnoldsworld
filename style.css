@@ -20,14 +20,33 @@ a {
     font-size: 17px;
     font-weight: 600;
     display: flex;
-    /*justify-content: space-between;*/
-    justify-content: left;
-    gap: 30px;
+    justify-content: space-between;
+    /* justify-content: left; */
+    /* gap: 30px; */
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 15px;
     padding-bottom: 10px;
+    animation: aone ease-out 5s;
+    position: relative;
+    position: sticky;
+    /*for sticky*/
+    top: 0;
+    /*header*/
+    background-color: #ebeeed;
+    z-index: 9999;
+    /*to make this layer always appear at the top*/
+    opacity: 0.95;
+}
+
+.lefth {
+    display: flex;
+    align-items: center;
+    /* font-style: italic;
+    font-weight: 700;
+    font-size: 18px; */
+    gap: 15px;
 }
 
 .righth {
@@ -35,8 +54,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-left: 260px;
-    animation: aone ease-out 5s;
-    position: relative;
 }
 
 @keyframes aone {
@@ -47,7 +64,7 @@ a {
 
     to {
         top: 0px;
-        opacity: 1;
+        opacity: 0.95;
     }
 }
 
@@ -79,6 +96,11 @@ a {
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 80px;
+}
+
+.buttonlogo {
+    margin: 0px;
+    border: none;
 }
 
 .buttonmore {
@@ -117,8 +139,14 @@ a {
     }
 }
 
+.buttdunno {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
 .logo {
-    height: 25px;
+    height: 30px;
 }
 
 /* .bone {
@@ -152,7 +180,8 @@ html {
     text-decoration: none;
     transition-duration: 0.3s;
     border: 2px solid #ebeeed;
-    border-radius: 50px;
+    /*border-radius: 800px;*/
+    margin: 0px 5px;
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -185,6 +214,10 @@ html {
     background-color: #051320;
     color: #ebeeed;
     border: 2px solid #ebeeed;
+}
+
+.bros {
+    width: 1200px;
 }
 
 .btwo {
@@ -223,9 +256,9 @@ html {
     gap: 20px;
 }
 
-/*.logotext {
-    font-family: NewYork;
-}*/
+.logotext {
+    font-family: montserrat;
+}
 
 .more {}
 
@@ -325,7 +358,7 @@ html {
     font-size: 16px;
     font-family: Montserrat;
     font-weight: 600;
-    padding: 6px 8px;
+    padding: 10px 8px;
     margin: 0px;
     background-color: #ebeeed;
     color: #051320;
